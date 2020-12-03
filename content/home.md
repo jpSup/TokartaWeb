@@ -11,6 +11,6 @@ cats:
 ---
 # Title
 
-html<div>Welcome to my awesome page about <b>Big Fat Cats</b> of the internet.</div>
+<div>Welcome to my awesome page about <b>Big Fat Cats</b> of the internet.</div>
 
 This page is built with NextJS, and content is managed in Netlify CMS
