@@ -20,22 +20,22 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-  - label: "Blog in English"
-      name: "english_posts"
-      folder: "_posts"
-      create: true
-      filter: {field: "language", value: "en"}
-      fields:
-        - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Content", name: "body", widget: "markdown"}
-    - label: "Blog en Español"
-      name: "spanish_posts"
-      folder: "_posts"
-      create: true
-      filter: {field: "language", value: "es"}
-      fields:
-        - {label: "Lenguaje", name: "language", widget: "select", options: ["en", "es"]}
-        - {label: "Titulo", name: "title", widget: "string"}
-        - {label: "Contenido", name: "body", widget: "markdown"}
+  - name: "english_posts"
+    label: "Blog in English"      
+    folder: "_posts"
+    create: true
+    filter: {field: "language", value: "en"}
+    fields:
+      - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "spanish_posts"
+    label: "Blog en Español"
+    folder: "_posts"
+    create: true
+    filter: {field: "language", value: "es"}
+    fields:
+      - {label: "Lenguaje", name: "language", widget: "select", options: ["en", "es"]}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Contenido", name: "body", widget: "markdown"}
   
