@@ -15,6 +15,4 @@ cats:
 
 This page is built with NextJS, and content is managed in Netlify CMS
 
-
-
 ![lone monkey](/img/lonemoneky.jpg "The Lone Monkey")
